@@ -1,0 +1,154 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .center-cover-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main {
+    height: 800px;
+    background-image: url("./img/main_01@2x.jpg");
+  }
+
+  .container {
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .rider {
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+
+  .rider-img{
+    height: 300px;
+  }
+
+  .scroll-img { 
+    position: absolute;
+    bottom: 0;
+    right: 700px;
+  }
+
+
+
+  .logo {
+    display: flex;
+    width: 28%;
+    height: 34px;
+    width: 74px;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+
+  .link {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    margin-right: 180px;
+  }
+
+  .main-text {
+    height: 350px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  .label{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+  }
+
+  .label-text-appstore{
+    position: relative;
+    top: 90px;
+  }
+
+  .label-text-QR{
+    position: relative;
+    top: 35px;
+    right: 20px;
+  }
+
+  .download {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .app-download{
+    display: none;
+  }
+  .app-download-img{
+    display: none;
+  }
+  .download-img {
+    
+    width: 200px;
+    height: 200px;
+  }
+
+  .download-button {
+    display: flex;
+    gap: 10px;
+  }
+
+  .QR-code-img{
+    height: 150px;
+    width: 150px;
+  }
+
+  @media screen and (max-width:1024px) {
+    .link{
+      display: none;
+    }
+    .download-button{
+      display: none;
+    }
+    .QR-code{
+      display: none;
+    }
+    .label {
+      display: none;
+    }
+
+    .rider-img{
+      height: 150px;
+    }
+
+    .scroll-img { 
+      position: absolute;
+      bottom: 0;
+      left: 100px;
+    }
+
+    .app-download{
+      display: flex;
+    }
+
+    .app-download-img{
+      display: flex;
+      position: absolute;
+      bottom: 30px;
+      right: 90px;
+      height: 150px;
+    }
+  
+  }
