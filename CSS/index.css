@@ -19,7 +19,7 @@
 
   .main {
     height: 800px;
-    background-image: url("./img/main_01@2x.jpg");
+    background-image: url("../asset/img/main_01@2x.jpg");
   }
 
   .container {
